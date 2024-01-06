@@ -108,7 +108,7 @@ const Direct = ({ users, getUsers, currentUser, iD, dark, setCurrentuser, setUse
             style={{backgroundColor: dark ? "#000" : ""}}>
                 <form onSubmit={sendMessage}>
                     <input type="text" placeholder="Message..." ref={message}
-                    style={{backgroundColor: dark ? "#000" : ""}} />
+                    style={{backgroundColor: dark ? "#000" : "", color: dark ? "#fff" : "#000"}} />
                 </form>
             </div>
             {commentsWindow &&
